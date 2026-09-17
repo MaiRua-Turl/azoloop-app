@@ -20,7 +20,7 @@ goi_mo_hinh = joblib.load(THU_MUC_APP / "random_forest_azolla_demo.pkl")
 cac_mo_hinh_app = goi_mo_hinh["models"]
 
 def anh_nhung(ten_file):
-    duong_dan = THU_MUC_APP / "assets" / ten_file
+    duong_dan = THU_MUC_APP / ten_file
     mime = mimetypes.guess_type(duong_dan.name)[0] or "image/png"
     ma_hoa = base64.b64encode(duong_dan.read_bytes()).decode("ascii")
     return f"data:{mime};base64,{ma_hoa}"
