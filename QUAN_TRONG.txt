@@ -1,0 +1,4 @@
+HAY BO SUNG FILE random_forest_azolla_demo.pkl VAO CUNG THU MUC VOI app.py
+TRUOC KHI TAI DU AN LEN GITHUB.
+
+Khong doi ten file mo hinh.
